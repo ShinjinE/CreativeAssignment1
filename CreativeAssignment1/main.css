@@ -1,0 +1,32 @@
+body {
+    background-image: linear-gradient(rgb(55,181,74), white);
+    background-repeat: no-repeat;
+    font-size: x-large;
+    line-height: 1.6;
+}
+h1 {
+    text-align: center;
+    
+}
+#subHead {
+    text-align: center;
+}
+#eye {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    border-radius: 20px;
+}
+#intro {
+        width: 65%;
+        margin: 50px 30px 0px 30px;
+        position: relative;
+        left: 15%;
+}
+#HCB_comment_box {
+     width: 50%;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
