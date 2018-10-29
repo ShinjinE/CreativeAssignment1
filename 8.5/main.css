@@ -1,0 +1,11 @@
+body{
+    background-image: url("tree.jpg");
+    height: 650px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%, cover;
+  position: relative;
+    /*background-size: contain;*/
+    /*background-position: 50%, 20%;*/
+    /*background-repeat: no-repeat;*/
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+        }
+
+        p {
+            color: red;
+            font-family: verdana;
+            font-size: 20px;
+        }
+    </style>
+    </head>
+    <body> 
+        <h1>Hello World</h1>
+        <ul>
+            <li> This </li>
+            <li> That </li>
+        </ul>
+        <ol>
+            <li> This </li>
+            <li> That </li>
+        </ol>
+        <p>
+            Awesome ski photo!
+        </p>
+        <img src="ski.jpg">
+        <a href="https://www.w3schools.com">Visit W3Schools.com!</a>
+        
+        <form>
+            <input type="text" id="myform">
+            <button onclick="myFunction(event)">Click me</button>
+        </form>
+        <p id="demo"></p>
+        <script>
+            function myFunction(event) {
+                document.getElementById("demo").innerHTML = "Hello "+document.getElementById("myform").value;
+                event.preventDefault();//don't do the default which is refresh
+            }
+        </script>
+        
+    </body>
+ <html>
